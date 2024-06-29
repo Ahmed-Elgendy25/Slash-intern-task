@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "First Post",
+      "body": "This is the body of the first post.",
+      "cover": "first-post-cover.jpg",
+      "imageDetails": "Image of a sunrise"
+    },
+    {
+      "title": "Second Post",
+      "body": "This is the body of the second post.",
+      "cover": "second-post-cover.jpg",
+      "imageDetails": "Image of a mountain"
+    },
+    {
+      "title": "Third Post",
+      "body": "This is the body of the third post.",
+      "cover": "third-post-cover.jpg",
+      "imageDetails": "Image of a forest"
+    },
+    {
+      "title": "Fourth Post",
+      "body": "This is the body of the fourth post.",
+      "cover": "fourth-post-cover.jpg",
+      "imageDetails": "Image of a beach"
+    }
+  ]
+}
