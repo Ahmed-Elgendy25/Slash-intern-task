@@ -4,7 +4,6 @@ import { createClient } from '@/utils/supabase/client';
 import { useReducer } from 'react';
 import { Riple } from 'react-loading-indicators';
 
-// Initial state for the form
 type initialStateTyped = {
   title: string;
   body: string;
@@ -30,7 +29,6 @@ const initialState: initialStateTyped = {
   loading: false,
 };
 
-// Reducer function to handle state updates
 function formReducer(
   state: initialStateTyped,
   action: { type: string; payload: any }
@@ -109,13 +107,6 @@ function CreateForm() {
       dispatch({ type: 'SET_LOADING', payload: false });
     }
   };
-
-  {
-    // console.log(imageDetails);
-    // console.log(cover);
-    // console.log(urlCover);
-    // console.log(urlImageDetails);
-  }
 
   if (urlCover && urlImageDetails) {
     submitForm(body, title, urlCover, urlImageDetails);

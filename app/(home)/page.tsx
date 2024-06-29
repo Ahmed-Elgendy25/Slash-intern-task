@@ -5,14 +5,8 @@ import Tul8te from '/public/Tul8te/1.jpg';
 import Link from 'next/link';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { createClient } from '@/utils/supabase/server';
+import { PostsTyped } from '@/types/type';
 export const dynamic = 'force-dynamic';
-type PostsTyped = {
-  id: number;
-  title: string;
-  body: string;
-  url_image: string;
-  url_cover: string;
-};
 
 async function getPosts(): Promise<PostsTyped[]> {
   const supabase = createClient();
