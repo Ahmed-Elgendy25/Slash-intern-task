@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Kanit as NextKanit } from 'next/font/google';
 
-export const dynamic = 'force-dynamic';
 
 const Kanit = NextKanit({
   subsets: ['latin'],
